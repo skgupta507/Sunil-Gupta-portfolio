@@ -106,7 +106,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Insert your name"
-                className="bg-[#fafafa] py-2 outline-none placeholder:text-[14px] tracking-wide w-full"
+                className="bg-[#fafafa] py-2 outline-none text-zinc-800 placeholder:text-[14px] tracking-wide w-full"
               />
             </div>
             <div className="grid border-2 px-5 py-2 rounded-lg relative border-zinc-300 focus-within:border-zinc-500 duration-300 transition-all ease-in-out">
@@ -120,7 +120,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 placeholder="Insert your email"
-                className="bg-[#fafafa] py-2 outline-none w-full placeholder:text-[14px] tracking-wide"
+                className="bg-[#fafafa] py-2 text-zinc-800 outline-none w-full placeholder:text-[14px] tracking-wide"
               />
             </div>
             <div className="grid border-2 px-5 py-2 rounded-lg relative border-zinc-300 focus-within:border-zinc-500 duration-300 transition-all ease-in-out">
@@ -135,7 +135,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 placeholder="Write your project"
-                className="bg-[#fafafa] outline-none placeholder:text-[15px] tracking-wide pt-3 w-full"
+                className="bg-[#fafafa] text-zinc-800 outline-none placeholder:text-[15px] tracking-wide pt-3 w-full"
               ></textarea>
             </div>
             <button
