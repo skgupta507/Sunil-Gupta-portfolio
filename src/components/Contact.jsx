@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Hinge } from "react-awesome-reveal";
 
 const Contact = () => {
   const form = useRef();
@@ -32,7 +33,9 @@ const Contact = () => {
           </h3>
           <div className="grid grid-cols-1 gap-y-5">
             <div className="grid grid-cols-1 bg-white w-fit justify-items-center px-7 py-6 rounded-xl shadow-md ">
-              <i className="bx bx-mail-send text-zinc-700 text-3xl"></i>
+              <Hinge duration={5000} delay={3000}>
+                <i className="bx bx-mail-send text-zinc-700 text-3xl"></i>
+              </Hinge>
               <h3 className="text-zinc-700 font-semibold">Email</h3>
               <span className="text-center break-all">
                 dipu.chaurasiya91@gmail.com
@@ -48,7 +51,9 @@ const Contact = () => {
               </a>
             </div>
             <div className="grid grid-cols-1 bg-white w-full justify-items-center px-7 py-6 rounded-xl shadow-md">
-              <i className="bx bxl-messenger text-zinc-700 text-3xl"></i>
+              <Hinge duration={5000} delay={5000}>
+                <i className="bx bxl-messenger text-zinc-700 text-3xl"></i>
+              </Hinge>
               <h3 className="text-zinc-700 font-semibold">Messenger</h3>
               <span className="text-center break-all">
                 @dipu.chaurasiya.3152
@@ -64,7 +69,9 @@ const Contact = () => {
               </a>
             </div>
             <div className="grid grid-cols-1 bg-white w-full justify-items-center px-7 py-6 rounded-xl shadow-md">
-              <i class="uil uil-instagram text-zinc-700 text-3xl "></i>
+              <Hinge duration={6000} delay={4000}>
+                <i className="bx bxl-instagram text-zinc-700 text-3xl"></i>
+              </Hinge>
               <h3 className="text-zinc-700 font-semibold">Instagram</h3>
               <span className="text-center break-all">@immdipu</span>
               <a
