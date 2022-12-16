@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Slide } from "react-awesome-reveal";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -15,42 +16,43 @@ const Header = () => {
             (toggle ? " max-sm:h-44" : "max-sm:h-0 max-sm:pt-0 ")
           }
         >
-          <ul className="flex gap-10 max-md:gap-6 max-sm:grid max-sm:grid-cols-3 max-sm:gap-8 max-sm:mb-10 max-sm:px-8">
-            <li>
-              <a
-                href="#home"
-                className="font-medium  max-sm:items-center max-sm:flex max-sm:flex-col max-sm:text-sm"
-              >
-                <i className="uil uil-estate hidden max-sm:block"></i>
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#about"
-                className="font-medium max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-sm"
-              >
-                <i className="uil uil-user hidden max-sm:block"></i>About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#skills"
-                className="font-medium max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-sm"
-              >
-                <i className="uil uil-file-alt hidden max-sm:block"></i>Skills
-              </a>
-            </li>
-            <li>
-              <a
-                href="#projects"
-                className="font-medium max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-sm"
-              >
-                <i className="uil uil-briefcase-alt hidden max-sm:block"></i>
-                Projects
-              </a>
-            </li>
-            {/* <li>
+          <Slide cascade>
+            <ul className="flex gap-10 max-md:gap-6 max-sm:grid max-sm:grid-cols-3 max-sm:gap-8 max-sm:mb-10 max-sm:px-8">
+              <li>
+                <a
+                  href="#home"
+                  className="font-medium  max-sm:items-center max-sm:flex max-sm:flex-col max-sm:text-sm"
+                >
+                  <i className="uil uil-estate hidden max-sm:block"></i>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  className="font-medium max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-sm"
+                >
+                  <i className="uil uil-user hidden max-sm:block"></i>About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#skills"
+                  className="font-medium max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-sm"
+                >
+                  <i className="uil uil-file-alt hidden max-sm:block"></i>Skills
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                  className="font-medium max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-sm"
+                >
+                  <i className="uil uil-briefcase-alt hidden max-sm:block"></i>
+                  Projects
+                </a>
+              </li>
+              {/* <li>
               <a
                 href="#portfolio"
                 className="font-medium max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-sm"
@@ -58,15 +60,16 @@ const Header = () => {
                 <i className="uil uil-scenery hidden max-sm:block"></i>Portfolio
               </a>
             </li> */}
-            <li>
-              <a
-                href="#contact"
-                className="font-medium max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-sm"
-              >
-                <i className="uil uil-message hidden max-sm:block"></i>Contact
-              </a>
-            </li>
-          </ul>
+              <li>
+                <a
+                  href="#contact"
+                  className="font-medium max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-sm"
+                >
+                  <i className="uil uil-message hidden max-sm:block"></i>Contact
+                </a>
+              </li>
+            </ul>
+          </Slide>
           <i
             className={
               "uli uil-times hidden max-sm:block max-sm:absolute max-sm:right-6 max-sm:bottom-3 cursor-pointer border px-2 rounded-full " +
