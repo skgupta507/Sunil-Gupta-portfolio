@@ -10,11 +10,11 @@ const About = () => {
       <h2 className="text-zinc-800 text-3xl font-bold ">About Me</h2>
       <span className="text-sm mt-2">My introduction</span>
       <div className="grid mt-16 grid-cols-2 items-center max-lg:grid-cols-1">
-        <Zoom triggerOnce>
+        <Zoom triggerOnce fraction={0.8}>
           <img
             src={mypic}
             alt="mypic"
-            className="w-80 justify-self-center rounded-xl shadow-xl max-sm:w-60"
+            className="w-80 m-auto justify-self-center rounded-xl shadow-xl max-sm:w-60"
           />
         </Zoom>
         <div className="max-lg:flex block max-lg:flex-col mt-0 max-lg:items-center max-lg:mt-10">

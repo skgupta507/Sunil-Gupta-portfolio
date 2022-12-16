@@ -16,7 +16,7 @@ const Header = () => {
             (toggle ? " max-sm:h-44" : "max-sm:h-0 max-sm:pt-0 ")
           }
         >
-          <Slide cascade>
+          <Slide cascade triggerOnce>
             <ul className="flex gap-10 max-md:gap-6 max-sm:grid max-sm:grid-cols-3 max-sm:gap-8 max-sm:mb-10 max-sm:px-8">
               <li>
                 <a

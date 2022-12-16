@@ -13,7 +13,8 @@ module.exports = {
         }
       },
       screens: {
-        'xm': '280px'
+        'xm': '280px',
+        'cus': '340px'
       }
     },
   },
