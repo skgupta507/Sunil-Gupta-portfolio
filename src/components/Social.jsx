@@ -25,7 +25,7 @@ const Social = () => {
         target="_blank"
         className="hover:text-zinc-900 "
       >
-        <i class="uil uil-twitter-alt"></i>
+        <i className="uil uil-twitter-alt"></i>
       </a>
     </div>
   );
