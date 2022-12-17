@@ -68,7 +68,7 @@ const Data = () => {
 
       <a
         href="#contact"
-        className="flex items-center gap-2 text-[15px] bg-neutral-900 w-fit text-[#fff] p-4 px-5 opacity-90 hover:opacity-100 transition-all duration-100 ease-in-out rounded-2xl mt-7 max-sm:mt-14"
+        className="flex items-center select-none gap-2 text-[15px] bg-neutral-900 w-fit text-[#fff] p-4 px-5 opacity-90 hover:opacity-100 transition-all duration-100 ease-in-out rounded-2xl mt-7 max-sm:mt-14"
       >
         Say Hello
         <svg
