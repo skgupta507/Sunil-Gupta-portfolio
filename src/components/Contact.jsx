@@ -1,9 +1,39 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Hinge } from "react-awesome-reveal";
 
 const Contact = () => {
   const form = useRef();
+  const [animation, setAnimation] = useState(false);
+  const [animation2, setAnimation2] = useState(false);
+  const [animation3, setAnimation3] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [textArea, setTextArea] = useState("");
+
+  const HandleInput = (e) => {
+    setAnimation(true);
+    setName(e.target.value);
+    setTimeout(function () {
+      setAnimation(false);
+    }, 400);
+  };
+
+  const HandleEmail = (e) => {
+    setAnimation2(true);
+    setEmail(e.target.value);
+    setTimeout(function () {
+      setAnimation2(false);
+    }, 400);
+  };
+
+  const HandleTextArea = (e) => {
+    setAnimation3(true);
+    setTextArea(e.target.value);
+    setTimeout(function () {
+      setAnimation3(false);
+    }, 400);
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -105,9 +135,16 @@ const Contact = () => {
               <input
                 type="text"
                 name="name"
+                value={name}
                 placeholder="Insert your name"
+                onChange={HandleInput}
                 className="bg-[#fafafa] py-2 outline-none text-zinc-800 placeholder:text-[14px] tracking-wide w-full"
               />
+              {animation && (
+                <p className="inputLetterDrop absolute overflow-hidden bg-transparent text-zinc-400 tracking-wider inset-0 top-5 px-4">
+                  {name}
+                </p>
+              )}
             </div>
             <div className="grid border-2 px-5 py-2 rounded-lg relative border-zinc-300 focus-within:border-zinc-500 duration-300 transition-all ease-in-out">
               <label
@@ -119,9 +156,16 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
+                value={email}
+                onChange={HandleEmail}
                 placeholder="Insert your email"
                 className="bg-[#fafafa] py-2 text-zinc-800 outline-none w-full placeholder:text-[14px] tracking-wide"
               />
+              {animation2 && (
+                <p className="inputLetterDrop absolute overflow-hidden bg-transparent text-zinc-400 tracking-wider inset-0 top-5 px-4">
+                  {email}
+                </p>
+              )}
             </div>
             <div className="grid border-2 px-5 py-2 rounded-lg relative border-zinc-300 focus-within:border-zinc-500 duration-300 transition-all ease-in-out">
               <label
@@ -134,9 +178,16 @@ const Contact = () => {
                 name="project"
                 cols="30"
                 rows="10"
+                value={textArea}
+                onChange={HandleTextArea}
                 placeholder="Write your project"
                 className="bg-[#fafafa] text-zinc-800 outline-none placeholder:text-[15px] tracking-wide pt-3 w-full"
               ></textarea>
+              {animation3 && (
+                <p className="inputLetterDrop absolute overflow-hidden bg-transparent text-zinc-400 tracking-wider inset-0 top-5 px-4">
+                  {textArea}
+                </p>
+              )}
             </div>
             <button
               type="submit"
