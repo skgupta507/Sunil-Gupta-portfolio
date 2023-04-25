@@ -1,5 +1,13 @@
 [
   {
+    "title": "Beatstreet",
+    "about": "Free music streaming site built using React and Node js",
+    "github": "https://github.com/immdipu/Beatstreet",
+    "live": "https://beatstreet.netlify.app/",
+    "tools": ["React", "Node js", "Tailwind", "API"],
+    "image": "./images/beatstreet.png"
+  },
+  {
     "title": "Cinemaa",
     "about": "Stream latest Movies and TV shows. Search moives, TV shows and actors",
     "github": "https://github.com/immdipu/CINEMAA",

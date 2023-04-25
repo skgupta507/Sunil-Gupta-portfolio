@@ -59,11 +59,11 @@ const Data = () => {
       </h1>
 
       <h3 className="text-lg font-medium relative text-zinc-700 pl-28 whitespace-normal before:w-24 before:absolute before:bg-zinc-600 before:h-[1px] before:left-0 before:top-[14px] my-3 max-sm:text-[5vw] max-[320px]:text-[4vw]  max-sm:whitespace-nowrap max-sm:mt-4 Topfall2">
-        Frontend developer
+        Full Stack developer
       </h3>
       <p className="my-1 max-sm:mt-8 Topfall3">
-        I'm frontend web developer from Nepal, and I'm very passionate and
-        dedicated to my work
+        I'm Full stack web developer from Nepal, and I'm very passionate and
+        dedicated to my work.
       </p>
 
       <a

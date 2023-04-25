@@ -24,7 +24,7 @@ const About = () => {
             programming & web development started in 2022 when I decided to see
             myself doing something I love. Although I have no related degree yet
             in this field, still at this point I have been able to claim myself
-            as a Frontend developer. I have come this far through my
+            as a Full Stack developer. I have come this far through my
             self-struggle, strength, and never-ending adaption.
           </p>
           <a
