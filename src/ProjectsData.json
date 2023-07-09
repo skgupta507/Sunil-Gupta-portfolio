@@ -11,8 +11,8 @@
     "title": "Cinemaa",
     "about": "Stream latest Movies and TV shows. Search moives, TV shows and actors",
     "github": "https://github.com/immdipu/CINEMAA",
-    "live": "https://www.cinemaa.ga/",
-    "tools": ["HTML", "CSS", "Vanilla JavaScript", "API"],
+    "live": "https://cinemaa.vercel.app",
+    "tools": ["Next js", "Tailwind", "Node js", "API"],
     "image": "./images/Cinemaa.jpg"
   },
   {
