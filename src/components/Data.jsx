@@ -4,7 +4,7 @@ const Data = () => {
   return (
     <div className="max-sm:col-[1/3] max-sm:px-6 max-sm:mt-4 max-sm:">
       <h1 className="flex text-zinc-800 font-semibold whitespace-normal items-center text-[2.6rem] gap-2 max-sm:text-[8vw] max-sm:gap-1 max-sm:whitespace-nowrap Topfall">
-        Dipu Chaurasiya
+        Sunil Gupta
         <span className="animate-[wiggle_2s_ease-in-out_infinite] ">
           <svg
             width="36"
@@ -62,7 +62,7 @@ const Data = () => {
         Full Stack developer
       </h3>
       <p className="my-1 max-sm:mt-8 Topfall3">
-        I'm Full stack web developer from Nepal, and I'm very passionate and
+        I'm Full stack web developer from Bangalore, and I'm very passionate and
         dedicated to my work.
       </p>
 
