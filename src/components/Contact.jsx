@@ -68,7 +68,7 @@ const Contact = () => {
               </Hinge>
               <h3 className="text-zinc-700 font-semibold">Email</h3>
               <span className="text-center break-all">
-                dipu.chaurasiya91@gmail.com
+                sunilk98850@gmail.com
               </span>
               <a
                 href="https://mail.google.com"
@@ -86,10 +86,10 @@ const Contact = () => {
               </Hinge>
               <h3 className="text-zinc-700 font-semibold">Messenger</h3>
               <span className="text-center break-all">
-                @dipu.chaurasiya.3152
+                @sk.gupta507
               </span>
               <a
-                href="https://www.facebook.com/dipu.chaurasiya.3152/"
+                href="https://www.facebook.com/sk.gupta507/"
                 target="_blank"
                 rel="noreferrer"
                 className="group mt-4 flex hover:text-zinc-600 transition-all duration-200"
@@ -103,9 +103,9 @@ const Contact = () => {
                 <i className="bx bxl-instagram text-zinc-700 text-3xl"></i>
               </Hinge>
               <h3 className="text-zinc-700 font-semibold">Instagram</h3>
-              <span className="text-center break-all">@immdipu</span>
+              <span className="text-center break-all">@sk.gupta507</span>
               <a
-                href="https://www.instagram.com/immdipu/"
+                href="https://www.instagram.com/sk.gupta507/"
                 target="_blank"
                 rel="noreferrer"
                 className="group mt-4 flex hover:text-zinc-600 transition-all duration-200"
