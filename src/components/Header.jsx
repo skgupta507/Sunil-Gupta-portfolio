@@ -8,7 +8,7 @@ const Header = () => {
     <header className="h-16 left-0 fixed bg-[#fafafa] shadow-sm backdrop-blur-sm max-sm:fixed w-full top-0 max-sm:bottom-0 max-md:bg-transparent  max-sm:top-auto z-50">
       <nav className="flex w-3/4 m-auto justify-between  items-center h-full max-md:px-6 max-sm:bg-[#0000000d] max-md:w-full max-sm:backdrop-blur-sm">
         <a href="index.html" className="text-xl font-semibold tracking-widest">
-          DIPU
+          SUNIL
         </a>
         <div
           className={
