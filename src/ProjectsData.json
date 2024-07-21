@@ -90,11 +90,11 @@
     "image": "./images/Gamestore.jpg"
   },
   {
-    "title": "Form Validation",
-    "about": "Form validation that includes password, email, ",
-    "github": "https://github.com/skgupta507/Form-validation",
-    "live": "https://majestic-lolly-9bcf97.netlify.app/",
+    "title": "Resound",
+    "about": "Resound | An Interactive Music Sharing and Streaming Platform",
+    "github": "https://github.com/skgupta507/Resound",
+    "live": "https://resound-eta.vercel.app/",
     "tools": ["HTML", "CSS", "Vanilla JavaScript"],
-    "image": "./images/FormValidation.jpg"
+    "image": "./images/Resound.jpg"
   }
 ]
