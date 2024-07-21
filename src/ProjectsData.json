@@ -40,12 +40,12 @@
     "image": "./images/Reveraki.jpg"
   },
   {
-    "title": "Static Job Listing",
-    "about": "Filter job from the list of jobs based on filter tag",
-    "github": "https://github.com/skgupta507/static-job-listings-usng-react",
-    "live": "https://63856a746260b021be36f1c9--coruscating-griffin-f26886.netlify.app/",
-    "tools": ["HTML", "Tailwind", "React"],
-    "image": "./images/StaticJoblistingSearch.jpg"
+    "title": "kaido",
+    "about": "Kaido, your one-stop destination for streaming your favorite anime series and movies!",
+    "github": "https://github.com/skgupta507/Kaido",
+    "live": "https://xkaido.vercel.app/",
+    "tools": ["Consumet", "Tailwind", "Jikan Api"],
+    "image": "./images/kaido.jpg"
   },
 
   {
