@@ -5,7 +5,7 @@
     "github": "https://github.com/skgupta507/ytify",
     "live": "https://yt-musix.vercel.app/",
     "tools": ["Vanilla typescript", "Node js", "Tailwind", "API"],
-    "image": "./images/beatstreet.png"
+    "image": "./images/Ytify.png"
   },
   {
     "title": "Cinemaa",
