@@ -24,12 +24,12 @@
     "image": "./images/Munchy.jpg"
   },
   {
-    "title": "Cocktail DB",
-    "about": "Search about various cocktails and their recipes",
-    "github": "https://github.com/skgupta507/cocktails-react",
-    "live": "https://master--curious-heliotrope-7c93c4.netlify.app/",
-    "tools": ["HTML", "Tailwind", "React", "API"],
-    "image": "./images/Cocktail.jpg"
+    "title": "K-Next",
+    "about": "Ad-free Kdrama streaming app. Built with Nextjs, Drizzle ORM",
+    "github": "https://github.com/skgupta507/kd",
+    "live": "https://kdramax.vercel.app/",
+    "tools": ["Next js", "Drizzle ORM", "NeonDB", "API"],
+    "image": "./images/Kdrama.jpg"
   },
   {
     "title": "Password Generator",
