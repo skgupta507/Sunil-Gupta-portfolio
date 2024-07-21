@@ -1,6 +1,6 @@
 [
   {
-    "title": "Beatstreet",
+    "title": "Ytify",
     "about": "Free music streaming site built using Vanilla typescript and Node js",
     "github": "https://github.com/skgupta507/ytify",
     "live": "https://yt-musix.vercel.app/",
@@ -16,12 +16,12 @@
     "image": "./images/Cinemaa.jpg"
   },
   {
-    "title": "Quiz",
-    "about": "Play Quiz from different available category",
-    "github": "https://github.com/skgupta507/quiz-app-using-react",
-    "live": "https://quizplayer.netlify.app/",
+    "title": "Munchy",
+    "about": "Discover your new favorite anime on Munchy now!",
+    "github": "https://github.com/skgupta507/Munchy",
+    "live": "https://munchyx.vercel.app/",
     "tools": ["HTML", "Tailwind", "React", "API"],
-    "image": "./images/Quiz.jpg"
+    "image": "./images/Munchy.png"
   },
   {
     "title": "Cocktail DB",
