@@ -8,12 +8,12 @@
     "image": "./images/Ytify.png"
   },
   {
-    "title": "Cinemaa",
+    "title": "Rive Movie",
     "about": "Stream latest Movies and TV shows. Search moives, TV shows and actors",
-    "github": "https://github.com/skgupta507/CINEMAA",
-    "live": "https://cinemaa.vercel.app",
+    "github": "https://github.com/skgupta507/rive-next",
+    "live": "https://rive-movie.vercel.app/",
     "tools": ["Next js", "Tailwind", "Node js", "API"],
-    "image": "./images/Cinemaa.jpg"
+    "image": "./images/Rive.jpg"
   },
   {
     "title": "Munchy",
