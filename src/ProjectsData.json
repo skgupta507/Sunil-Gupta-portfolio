@@ -74,12 +74,12 @@
     "image": "./images/Wallipy.jpg"
   },
   {
-    "title": "GitHub User Seach",
-    "about": "Seach details about Github users. Dark and light theme included.",
-    "github": "https://github.com/skgupta507/GitHub-user-search",
-    "live": "https://seachaboutgithubusers.netlify.app/",
+    "title": "Grilli",
+    "about": "Grilli is a fully responsive restaurant website",
+    "github": "https://github.com/skgupta507/Grilli",
+    "live": "https://grilli-food.vercel.app/",
     "tools": ["HTML", "CSS", "Vanilla JavaScript", "API"],
-    "image": "./images/GitHubUserSearch.jpg"
+    "image": "./images/Grilli.jpg"
   },
   {
     "title": "Tip Calculator",
