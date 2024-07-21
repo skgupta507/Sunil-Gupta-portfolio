@@ -49,12 +49,12 @@
   },
 
   {
-    "title": "Income Tracker",
-    "about": "Tracker all expenses by making a list of expenses",
+    "title": "Hisaki",
+    "about": "Stream music from a vast collection of songs available on the Saavn platform",
     "github": "https://github.com/skgupta507/income-tracker",
-    "live": "https://bright-biscotti-968687.netlify.app/",
-    "tools": ["HTML", "Tailwind", "React"],
-    "image": "./images/IncomeTracker.jpg"
+    "live": "https://hisakii.vercel.app/",
+    "tools": ["Nextjs", "Tailwind", "React"],
+    "image": "./images/Hisaki.jpg"
   },
 
   {
