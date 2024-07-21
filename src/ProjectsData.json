@@ -1,10 +1,10 @@
 [
   {
     "title": "Beatstreet",
-    "about": "Free music streaming site built using React and Node js",
-    "github": "https://github.com/skgupta507/Beatstreet",
-    "live": "https://beatstreet.netlify.app/",
-    "tools": ["React", "Node js", "Tailwind", "API"],
+    "about": "Free music streaming site built using Vanilla typescript and Node js",
+    "github": "https://github.com/skgupta507/ytify",
+    "live": "https://yt-musix.vercel.app/",
+    "tools": ["Vanilla typescript", "Node js", "Tailwind", "API"],
     "image": "./images/beatstreet.png"
   },
   {
