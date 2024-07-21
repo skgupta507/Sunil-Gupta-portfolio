@@ -8,7 +8,7 @@
     "image": "./images/Ytify.png"
   },
   {
-    "title": "Rive Movie",
+    "title": "Rive Stream",
     "about": "Stream latest Movies and TV shows. Search moives, TV shows and actors",
     "github": "https://github.com/skgupta507/rive-next",
     "live": "https://rive-movie.vercel.app/",
@@ -32,12 +32,12 @@
     "image": "./images/Kdrama.jpg"
   },
   {
-    "title": "Password Generator",
-    "about": "Weak, Medium and Strong password Generator",
-    "github": "https://github.com/skgupta507/password-generator-react",
-    "live": "https://serene-shortbread-4ee0c6.netlify.app/",
-    "tools": ["HTML", "Tailwind", "React"],
-    "image": "./images/PasswordGenerator.jpg"
+    "title": "Reveraki",
+    "about": "A free anime watching website created with NextJs 14 and Tailwind CSS",
+    "github": "https://github.com/skgupta507/Reveraki",
+    "live": "https://xreveraki.vercel.app/",
+    "tools": ["Nextjs", "Tailwind CSS", "React"],
+    "image": "./images/Reveraki.jpg"
   },
   {
     "title": "Static Job Listing",
