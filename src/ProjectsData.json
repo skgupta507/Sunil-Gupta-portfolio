@@ -66,12 +66,12 @@
     "image": "./images/Sonify.jpg"
   },
   {
-    "title": "Ecommerce Product Main Page",
-    "about": "Add, remove item from cart, view product photos",
-    "github": "https://github.com/skgupta507/ecommerce-product-main-page",
-    "live": "https://teal-chebakia-560259.netlify.app/",
-    "tools": ["HTML", "CSS", "Vanilla JavaScript"],
-    "image": "./images/EcommerceProductPage.jpg"
+    "title": "Wallipy",
+    "about": "Discover wallpaper using reddit api",
+    "github": "https://github.com/skgupta507/Wallipy",
+    "live": "https://wallipy.vercel.app/",
+    "tools": ["Reddit Api", "CSS", "Vanilla JavaScript"],
+    "image": "./images/Wallipy.jpg"
   },
   {
     "title": "GitHub User Seach",
