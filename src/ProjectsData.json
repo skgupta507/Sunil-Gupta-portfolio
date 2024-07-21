@@ -58,12 +58,12 @@
   },
 
   {
-    "title": "Advice Generator",
-    "about": "Generate a new advice everytime the button is clicked",
-    "github": "https://github.com/skgupta507/Advice-Generator",
-    "live": "https://chic-pavlova-2c1f68.netlify.app/",
-    "tools": ["HTML", "CSS", "Vanilla JavaScript", "API"],
-    "image": "./images/AdviceGenerator.jpg"
+    "title": "Sonify",
+    "about": "Spotify Web Client using Spotify Web API and Spotify Playback SDK",
+    "github": "https://github.com/skgupta507/Sonify",
+    "live": "https://sonify-kappa.vercel.app/",
+    "tools": ["Nextjs", "CSS", "Spotify-web", "API"],
+    "image": "./images/Sonify.jpg"
   },
   {
     "title": "Ecommerce Product Main Page",
